@@ -1,0 +1,36 @@
+$BoxWidth:(
+    "small":150px,
+    "medium":350px,
+    "big":550px
+);
+@function Width($Width-Name)
+{
+    @return map-get($BoxWidth, $Width-Name );
+}
+.box1
+{
+    height: 550px;
+    width: Width(small);
+    background-color: #726d6d;
+    border:1px solid black;
+    margin-right: 20px;
+    float: left;
+}
+.box2
+{
+    float: left;
+    height: 550px;
+    width: Width(medium);
+    margin-right: 20px;
+    background-color: #726d6d;
+    border:1px solid black;
+}
+.box3
+{
+    float: left;
+    height: 550px;
+    width:Width(big);
+    margin-right: 20px;
+    background-color: #726d6d;
+    border:1px solid black;
+}

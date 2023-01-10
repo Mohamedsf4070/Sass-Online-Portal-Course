@@ -1,0 +1,12 @@
+.main {
+  width: 650px;
+  height: 250px;
+  border: 1px solid black;
+}
+
+.main p {
+  margin-bottom: 10px;
+}
+.main p a {
+  text-decoration: none;
+}/*# sourceMappingURL=edit.css.map */

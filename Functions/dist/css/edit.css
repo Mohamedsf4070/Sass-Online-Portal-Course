@@ -1,0 +1,26 @@
+.box1 {
+  height: 550px;
+  width: 150px;
+  background-color: #726d6d;
+  border: 1px solid black;
+  margin-right: 20px;
+  float: left;
+}
+
+.box2 {
+  float: left;
+  height: 550px;
+  width: 350px;
+  margin-right: 20px;
+  background-color: #726d6d;
+  border: 1px solid black;
+}
+
+.box3 {
+  float: left;
+  height: 550px;
+  width: 550px;
+  margin-right: 20px;
+  background-color: #726d6d;
+  border: 1px solid black;
+}/*# sourceMappingURL=edit.css.map */

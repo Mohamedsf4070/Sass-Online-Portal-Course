@@ -1,0 +1,68 @@
+.main {
+  padding: 0px;
+  font-weight: bold;
+  font-size: 20px;
+  width: 1062px;
+  height: 510px;
+  border: 1px solid black;
+}
+.main p {
+  margin: 0px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.main_section0 {
+  width: 980px;
+  height: 130px;
+  margin-left: 37px;
+}
+.main_section0 p {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.main_section1 {
+  margin-top: 20px;
+  width: 350px;
+  height: 360px;
+  float: left;
+}
+.main_section1 p {
+  margin: 0px;
+  padding: 0px;
+  font: normal 13px arial;
+  width: 300px;
+}
+.main_section1 hr {
+  margin-top: 70px;
+  margin-left: 10px;
+  width: 90%;
+}
+.main_section2 {
+  margin-top: 20px;
+  width: 350px;
+  height: 360px;
+  float: left;
+}
+.main_section2 p {
+  margin: 0px;
+  padding: 0px;
+  font: normal 13px arial;
+  width: 350px;
+}
+.main_section2 hr {
+  margin-top: 70px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+}
+.main_section3 {
+  margin-top: 20px;
+  width: 350px;
+  height: 360px;
+  float: left;
+  padding-left: 10px;
+}
+.main hr {
+  margin-top: 70px;
+  margin-left: 10px;
+}/*# sourceMappingURL=edit.css.map */

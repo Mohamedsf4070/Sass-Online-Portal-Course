@@ -1,0 +1,53 @@
+//variable
+$primarycolor:rgb(231, 223, 223);
+$designcolor:rgb(250, 116, 62);
+$innercolor:white;
+$Font-Size:("regular":10px,"medium":20px, "bold":30px);
+.main
+{
+    width: 800px;
+    height: 400px;
+    background-color: $primarycolor;
+}
+.one
+{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 220px;
+    height: 379px;
+    background-color: $innercolor;
+    padding-left:10px ;
+    padding-right: 10px;
+    float: left;
+}
+#image
+{
+    width: 75px;
+    height: 75px;
+   margin-left:75px;
+   margin-top:15px;
+}
+#button1
+{
+    margin-top: 60px;
+    margin-left: 35px;
+    width: 150px;
+    height: 40px;
+    border-color: $designcolor;
+    color: $designcolor;
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: map-get($Font-Size, medium );
+}
+#button2
+{
+   @extend #button1;
+   background-color: black;
+   color: red;
+}
+#button3
+{
+ @extend #button1;
+ background-color: green;
+ color: white;
+}
